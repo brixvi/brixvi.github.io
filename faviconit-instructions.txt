@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Brixvi</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- ****** faviconit.com favicons ****** -->
+thanks for using faviconit!
+copy the files to your site and add this code inside the HTML <HEAD> tag:
+
+	<!-- ****** faviconit.com favicons ****** -->
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
 	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
@@ -27,54 +23,3 @@
 	<meta name="msapplication-TileImage" content="/favicon-144.png">
 	<meta name="msapplication-config" content="/browserconfig.xml">
 	<!-- ****** faviconit.com favicons ****** -->
-    
-</head>
-<body>
-
-	<div class="container">
-		<div class="hero">
-			<h1 class="name"><img src="img/BrixviLogo.png" width="528" height="193"></h1>
-            <div class='logo'></div>
-            <br></br>
-            <br></br>
-		</div>
-	</div>
-
-	<div class="container">
-			<h2 class="lead">Works</h2>
-
-		<div class="sections">
-
-			<div class="list-card"> <a href="https://youtube.com/c/PunPals"><img src="img/PunPalsLogo.png" width="300" height="300" alt="Pun Pals"/></a>
-			</div>
-
-		</div>
-	</div>
-	
-	<div class="container cards">
-	</div>
-
-
-	<br><br>
-    <br></br>
-    <br></br>
-    <br></br>            
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-	<div class="container">
-		<span class="email">hello@brixvi.com</span>
-	</div>
-	<footer class="container">
-		<span style="font-size: 16px; margin-top: ">© 2018 Brixvi</span>
-	</footer>
-
-
-</body>
-</html>
