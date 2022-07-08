@@ -91,7 +91,7 @@ div , footer {
 	max-width: 1100px;
 	height: auto;
 	margin: 60px auto;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .hero {
@@ -166,7 +166,7 @@ h1.name {
 }
 
 .list-card div {
-	width: 70%;
+	width: 95%;
 }
 
 .list-card h3 {
