@@ -1,9 +1,9 @@
 const cacheName = "B16TRAN-Signal the Frogger-1";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/SignalTheFrogger.loader.js",
+    "Build/SignalTheFrogger.framework.js",
+    "Build/SignalTheFrogger.data",
+    "Build/SignalTheFrogger.wasm",
     "TemplateData/style.css"
 
 ];
