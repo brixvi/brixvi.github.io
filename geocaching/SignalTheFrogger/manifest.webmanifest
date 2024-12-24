@@ -1,11 +1,11 @@
 {
-    "name": "Signal's Labyrinth",
-    "short_name": "Signal's Labyrinth",
+    "name": "Signal the Frogger",
+    "short_name": "Signal the Frogger",
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#000000",
+    "background_color": "#231F20",
     "theme_color": "#000",
-    "description": "GCARK5A",
+    "description": "",
     "icons": [{
       "src": "TemplateData/icons/unity-logo-dark.png",
       "sizes": "144x144",
