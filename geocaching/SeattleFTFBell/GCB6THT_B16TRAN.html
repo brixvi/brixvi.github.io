@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seattle F[TF] & Bell</title>
+  <style>
+    /* Full‐window black background, no scrollbars */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Video will center and only shrink to fit viewport, never grow larger */
+    video {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+
+  <video id="loopingVideo" autoplay muted playsinline loop>
+    <source src="dominoes.mp4" type="video/mp4">
+    <source src="dominoes.webm" type="video/webm">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <script>
+    const vid = document.getElementById('loopingVideo');
+
+    // Hide default controls in case browser shows them
+    vid.controls = false;
+
+    // Watch for any pause—immediately restart
+    vid.addEventListener('pause', () => {
+      vid.play();
+    });
+
+    // Disable right-click to block “save video” / pause via context menu
+    vid.addEventListener('contextmenu', e => {
+      e.preventDefault();
+    });
+  </script>
+
+</body>
+</html>
